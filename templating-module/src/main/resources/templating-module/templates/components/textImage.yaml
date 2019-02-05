@@ -1,0 +1,6 @@
+templateScript: /templating-module/templates/components/textImage.ftl
+renderType: freemarker
+title: Text & image
+description: Enter text and image content
+dialog: templating-module:components/textImage-properties
+

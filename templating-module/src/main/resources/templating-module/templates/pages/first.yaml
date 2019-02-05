@@ -1,0 +1,17 @@
+templateScript: /templating-module/templates/pages/first.ftl
+renderType: freemarker
+dialog: templating-module:pages/first-page-properties
+title: First FTL
+areas:
+  main:
+   renderType: freemarker
+   availableComponents:
+     textImage:
+       id: templating-module:components/textImage
+     twoColumns:
+       id: templating-module:components/twoColumns
+  footer:
+    renderType: freemarker
+    availableComponents:
+      footer:
+        id: templating-module:components/footer

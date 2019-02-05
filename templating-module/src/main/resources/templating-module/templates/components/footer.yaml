@@ -1,0 +1,6 @@
+templateScript: /templating-module/templates/components/footer.ftl
+renderType: freemarker
+title: Footer
+description: Enter footer information
+dialog: templating-module:components/footer-properties
+

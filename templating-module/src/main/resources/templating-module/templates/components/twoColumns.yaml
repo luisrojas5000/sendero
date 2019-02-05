@@ -1,0 +1,8 @@
+templateScript: /templating-module/templates/components/twoColumns.ftl
+renderType: freemarker
+title: Two columns
+description: Add components in two columns
+dialog: templating-module:components/twoColumns-properties
+parameters:
+  divColLeft: col-sm-7
+  divColRight: col-sm-5

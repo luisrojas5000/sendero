@@ -1,0 +1,8 @@
+templateScript: /templating-module/templates/pages/site/main.ftl
+renderType: site
+dialog: templating-module:pages/default-properties
+title: Training Home Page
+type: training-home
+areas:
+  footer:
+    editable: true

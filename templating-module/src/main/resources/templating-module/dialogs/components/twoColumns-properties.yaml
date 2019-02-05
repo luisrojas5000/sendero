@@ -1,0 +1,17 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: titleLeft
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Left Column Title
+          description: Enter title of the left column.
+        - name: titleRight
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Right Column Title
+          description: Enter title of the right column.
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    classs: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

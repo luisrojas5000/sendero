@@ -1,0 +1,13 @@
+#templateScript: /templating-module/templates/pages/site/main.ftl
+renderType: site
+#renderType: freemarker
+dialog: templating-module:pages/default-properties
+title: Training Default Page
+#areas:
+#  main:
+# renderType: freemarkers
+# availableComponents:
+#   textImage:
+#     id: templating-module:components/textImage
+#   twoColumns:
+#     id: templating-module:components/twoColumns
